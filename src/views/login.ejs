@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Cardápio de Cupcakes</title>
+  <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+      <input type="text" name="username" placeholder="Nome de usuário" required>
+      <input type="password" name="password" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <div class="forgot-password">
+      <a href="#">Esqueceu a senha?</a>
+    </div>
+    <!-- Exemplo de mensagem de erro -->
+    <!-- <div class="error-message">Nome de usuário ou senha incorretos.</div> -->
+  </div>
+</body>
+</html>

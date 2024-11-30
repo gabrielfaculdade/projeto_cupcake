@@ -1,0 +1,23 @@
+{
+  "development": {
+   "username": "danieltechreview_db",
+    "password": "5z@DKi**1VPTao",
+    "database": "cupcakedb",
+    "host": "189.90.130.60",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
